@@ -216,3 +216,13 @@ display:none;
 transform:translateY(-5px);
 box-shadow:0 0 35px rgba(77,140,255,.8);
 }
+
+.current{
+border:2px solid #00ff88;
+box-shadow:0 0 30px rgba(0,255,136,.6);
+}
+
+.dream{
+border:2px solid #FFD54A;
+box-shadow:0 0 30px rgba(255,213,74,.5);
+}
