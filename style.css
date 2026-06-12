@@ -5,13 +5,20 @@ box-sizing:border-box;
 }
 
 body{
-font-family:Arial, sans-serif;
-background:linear-gradient(
--45deg,
-#0A1128,
-#14213D,
-#1D3557,
-#4D8CFF
+background:
+radial-gradient(circle at top left,#4D8CFF 0%,transparent 30%),
+radial-gradient(circle at top right,#B026FF 0%,transparent 30%),
+radial-gradient(circle at bottom,#00D4FF 0%,transparent 25%),
+#050816;
+
+color:white;
+min-height:100vh;
+overflow-x:hidden;
+}
+
+color:white;
+min-height:100vh;
+overflow-x:hidden;
 );
 background-size:400% 400%;
 animation:bgMove 15s ease infinite;
