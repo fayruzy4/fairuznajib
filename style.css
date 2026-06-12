@@ -129,6 +129,13 @@ flex-direction:column;
 gap:20px;
 }
 
+.profile-img{
+    width:350px;
+    max-width:100%;
+    display:block;
+    margin:0 auto;
+}
+
 .welcome{
 color:#FFD54A;
 font-size:18px;
