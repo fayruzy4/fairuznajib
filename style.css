@@ -64,6 +64,12 @@ justify-content:center;
 text-align:center;
 }
 
+#journey{
+min-height:100vh;
+padding:100px 20px;
+text-align:center;
+}
+
 h2{
 margin-top:15px;
 font-weight:400;
